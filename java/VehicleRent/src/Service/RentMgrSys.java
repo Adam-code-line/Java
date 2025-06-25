@@ -49,7 +49,7 @@ public class RentMgrSys {
         int days = input.nextInt();
         //多态计算租金
         double money = moto.calcRent(days);
-        System.out.println("您的车牌号是：" + moto.getVehicleBrand());
+        System.out.println("您的车牌号是：" + moto.getVehicleId());
         System.out.print("您需要支付的租金为：" + money + "元");
         input.close();//关闭输入流
     }
